@@ -1,0 +1,34 @@
+{
+  "relayLabels": [
+    "Edgerouter (24V)",
+    "Boafeng (8V)",
+    "LTE/4G Router (12V)",
+    "Raspberry Pi Supplies (USB)",
+    "Icom 9700 (30A)",
+    "TBC (30A)"
+  ],
+  "relayIPs": [
+    "192.168.3.11",
+    "192.168.3.10",
+    "192.168.3.1",
+    "192.168.2.254",
+    "",
+    ""
+  ],
+  "relayStates": [true, true, true, true, true, true],
+  "pingEnabled": [false, false, false, false, false, false],
+  "resetEnabled": [false, false, false, false, false, false],
+  "globalSchedule": {
+    "enabled": false,
+    "powerOnTime": "14:05",
+    "powerOffTime": "23:00",
+    "pollIntervalMinutes": 1
+  },
+
+  "wifi": {
+    "ssid": "greenrun",
+    "password": "connecticut"
+  },
+  "ntp": "pool.ntp.org",
+  "syslog": "192.168.3.11"
+}

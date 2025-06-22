@@ -1,0 +1,13 @@
+Version 2.0
+
+- Develop on ESP32S3
+- Clear log doesnt work properly. It does if you manually go to /clearlog. 
+- The buttons are not properly alighed on the settings page
+- I also want to capture all the nasty debugPrint stiff into a file
+- Need an override physical button to wake It
+- Need some LEDs that can be seen from out side the box
+- When clicking, change the pointer to show its busy before the botton changes
+- Logging issues. Need to be able to clear/re-init
+- Need static IP 
+- Remove external styleshee
+
